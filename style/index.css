@@ -23,23 +23,19 @@ body nav .nav-links {
 }
 
 body nav .nav-links .nav-btn {
-  border-radius: 50px;
   display: inline-block;
   text-align: center;
   width: 100px;
   padding: 15px 0px;
   text-decoration: none;
   color: white;
-  -webkit-box-shadow: 2px 2px 4px white;
-          box-shadow: 2px 2px 4px white;
-  margin-left: 20px;
+  margin: 20px;
 }
 
 body nav .nav-links .nav-btn:hover {
-  color: black;
-  background-color: white;
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  -webkit-box-shadow: 2px 2px 4px white;
+          box-shadow: 2px 2px 4px white;
+  border-radius: 50px;
 }
 
 body nav .logo {
@@ -49,8 +45,12 @@ body nav .logo {
 body nav .logo img {
   height: 70px;
   position: relative;
-  top: 02px;
   border-radius: 50%;
+  -webkit-box-shadow: 1px 1px 2px white;
+          box-shadow: 1px 1px 2px white;
+}
+
+body nav .logo img:hover {
   -webkit-box-shadow: 2px 2px 6px white;
           box-shadow: 2px 2px 6px white;
 }
