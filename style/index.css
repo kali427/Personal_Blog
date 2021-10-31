@@ -62,6 +62,11 @@ nav .nav-links .nav-btn:hover {
   border-radius: 50px;
 }
 
+nav .nav-links .active {
+  background-color: rgba(180, 169, 169, 0.171);
+  border-radius: 50px;
+}
+
 nav .logo {
   margin: 20px;
 }
@@ -119,5 +124,35 @@ nav .logo img:hover {
   -webkit-text-decoration-style: double;
           text-decoration-style: double;
   padding-bottom: 50px;
+}
+
+.who {
+  background-color: #f8fbfc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.who .who-pic img {
+  width: 450px;
+  height: 600px;
+  -webkit-filter: grayscale(0.7);
+          filter: grayscale(0.7);
+}
+
+.who .who-pic img:hover {
+  -webkit-filter: grayscale(0.3);
+          filter: grayscale(0.3);
+}
+
+.who .who-content {
+  border-left: 12px solid #2c2b2b;
+  margin: 50px 30px;
+}
+
+.who .who-content .who-h {
+  color: #2c2b2b;
+  margin: 0px;
+  padding-left: 30px;
 }
 /*# sourceMappingURL=index.css.map */
