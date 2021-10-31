@@ -1,10 +1,32 @@
+.sans-serif {
+  font-family: sans-serif;
+}
+
+.h {
+  font-family: sans-serif;
+  color: #f0f2f5;
+}
+
+.h1 {
+  font-size: 80px;
+}
+
+.h3 {
+  font-size: 60px;
+}
+
 body {
   margin: 0px;
   padding: 0px;
   background-color: #f0f2f5;
 }
 
-body nav {
+body * {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+nav {
   background-color: #333333;
   background-repeat: no-repeat;
   background-size: cover;
@@ -18,31 +40,33 @@ body nav {
           align-items: center;
 }
 
-body nav .nav-links {
+nav .nav-links {
   margin-left: 50px;
 }
 
-body nav .nav-links .nav-btn {
+nav .nav-links .nav-btn {
   display: inline-block;
   text-align: center;
-  width: 100px;
+  width: 120px;
   padding: 15px 0px;
   text-decoration: none;
   color: white;
-  margin: 20px;
+  border-radius: 50px;
+  margin-right: 10px;
 }
 
-body nav .nav-links .nav-btn:hover {
-  -webkit-box-shadow: 2px 2px 4px white;
-          box-shadow: 2px 2px 4px white;
+nav .nav-links .nav-btn:hover {
+  background-color: #2c2b2b;
+  -webkit-box-shadow: 1px 1px 4px white;
+          box-shadow: 1px 1px 4px white;
   border-radius: 50px;
 }
 
-body nav .logo {
+nav .logo {
   margin: 20px;
 }
 
-body nav .logo img {
+nav .logo img {
   height: 70px;
   position: relative;
   border-radius: 50%;
@@ -50,8 +74,50 @@ body nav .logo img {
           box-shadow: 1px 1px 2px white;
 }
 
-body nav .logo img:hover {
+nav .logo img:hover {
   -webkit-box-shadow: 2px 2px 6px white;
           box-shadow: 2px 2px 6px white;
+}
+
+.welcome {
+  background-color: #333333;
+  text-align: center;
+  padding: 30px 0px;
+}
+
+.welcome .sub-welcome {
+  border-top-left-radius: 150px;
+  border-bottom-right-radius: 150px;
+  background-color: #2c2b2b;
+  margin: 170px;
+  position: relative;
+  top: 60px;
+  margin-top: 1px;
+}
+
+.welcome .sub-welcome h1, .welcome .sub-welcome h3 {
+  margin: 0px;
+}
+
+.welcome .sub-welcome h1 {
+  padding-top: 50px;
+}
+
+.welcome .sub-welcome h3 {
+  padding-top: 20px;
+  font-weight: lighter;
+}
+
+.welcome .sub-welcome .welcome-p {
+  line-height: 30px;
+  padding: 5px 19%;
+}
+
+.welcome .sub-welcome .welcome-btn h3 {
+  margin: 0px;
+  text-decoration: underline;
+  -webkit-text-decoration-style: double;
+          text-decoration-style: double;
+  padding-bottom: 50px;
 }
 /*# sourceMappingURL=index.css.map */
