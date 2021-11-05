@@ -261,6 +261,15 @@ nav .logo img:hover {
 
 .stranger .stranger-content {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .stranger .stranger-content h1 {
@@ -269,6 +278,11 @@ nav .logo img:hover {
   letter-spacing: 10px;
   line-height: 130px;
   color: #2c2b2b;
+}
+
+.stranger .stranger-content img {
+  height: 100px;
+  opacity: 0.1;
 }
 
 .dropdown {

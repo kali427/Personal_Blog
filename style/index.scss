@@ -301,6 +301,10 @@ nav{
 
     .stranger-content{
         width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
         h1{
             
             text-align: center;
@@ -308,6 +312,11 @@ nav{
             letter-spacing: 10px;
             line-height: 130px;
             color: $clr-bd;
+            
+        }
+        img{
+            height: 100px;
+            opacity: 0.1;
         }
     }
 
@@ -363,4 +372,4 @@ nav{
         }
     }
 
-// nav links end 
+// nav links end
