@@ -57,6 +57,9 @@ body{
 //   navbar 
 
 nav{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
     // background-color: rgb(38, 38, 38);
     background-color: $clr-b;
     background-repeat: no-repeat;
@@ -350,6 +353,7 @@ nav{
             margin-top: 0px;
             text-align: center;
             list-style: none;
+            border: 1px solid white;
 
                 a{                       
                     color: black;
@@ -360,7 +364,9 @@ nav{
                     display: block;
 
                     &:hover{
-                        background-color: $clr-w;
+                        // background-color: $clr-w;
+                        background-color: $clr-bd;
+                        color: white;
                         cursor: pointer;
                     }
                 }
