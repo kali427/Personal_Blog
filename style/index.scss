@@ -270,24 +270,30 @@ nav{
     margin-top: 50px;
     .iam-content{
         width: 100%;
-        border-right: 12px solid $clr-bd;
+        // border-right: 12px solid $clr-bd;
         h1{
             text-align: center;
             word-spacing: 50px;
             letter-spacing: 10px;
             line-height: 130px;
             color: $clr-bd;
+            padding-top: 40px;
         }
     }
     .iam-pic{
         height: 600px;
         width: 450px;
+        
         img{
             position: relative;
             // right: 10px; 
+            bottom: 60px;
+            right: 40px;
+
             // z-index: -2;
             height: 100%;
-            filter: grayscale(0.5);
+            filter: grayscale(0.7   );
+
         }
     }
 }
