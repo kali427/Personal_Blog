@@ -1,12 +1,9 @@
 // media queries 
 
-    // @media screen and (max-width: 921px) {
-        
-    //     .h1{
-    //         font-size: 10px;
-    //     }
-    //     .h3{
-    //         font-size: 40px;
+    // @media screen and (max-width: 1000px){
+    // 840px        
+    //     .welcome .sub-welcome {
+    //         margin: 110px;
     //     }
         
     // }
@@ -22,6 +19,8 @@
 $clr-b : rgb(51, 51, 51);
 $clr-bd : rgb(44, 43, 43);
 $clr-w: rgb(240, 242, 245);
+$word: 4vw;
+$letter: 0.71vw;
 
 // variables 
 
@@ -37,10 +36,12 @@ $clr-w: rgb(240, 242, 245);
     
 }
 .h1{
-    font-size: 5em;
+    // font-size: 5em;
+    font-size: 6.3vw;
 }
 .h3{
-    font-size: 10ex;
+    // font-size: 4em;
+    font-size: 5vw;
 }
 
 // defined 
@@ -136,7 +137,7 @@ nav{
         border-top-left-radius: 150px;
         border-bottom-right-radius: 150px;
         background-color: $clr-bd;
-        margin: 170px;
+        margin: 13vw;
         position: relative;
         top: 60px;
         margin-top: 1px;
@@ -288,8 +289,8 @@ nav{
 
         h1{
             text-align: center;
-            word-spacing: 50px;
-            letter-spacing: 10px;
+            word-spacing: $word;
+            letter-spacing: $letter;
             line-height: 130px;
             color: $clr-bd;
             padding-top: 40px;
