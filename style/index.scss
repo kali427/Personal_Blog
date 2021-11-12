@@ -268,9 +268,24 @@ nav{
 .iam{
     display: flex;
     margin-top: 50px;
+    
+
     .iam-content{
         width: 100%;
         // border-right: 12px solid $clr-bd;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .bg{
+            width: 52%;
+            height: 67.6%;
+            position: absolute;
+            opacity: .25;
+            z-index: -1;
+
+        }
+
         h1{
             text-align: center;
             word-spacing: 50px;

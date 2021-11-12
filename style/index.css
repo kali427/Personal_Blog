@@ -220,6 +220,23 @@ nav .logo img:hover {
 
 .iam .iam-content {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.iam .iam-content .bg {
+  width: 52%;
+  height: 67.6%;
+  position: absolute;
+  opacity: .25;
+  z-index: -1;
 }
 
 .iam .iam-content h1 {
