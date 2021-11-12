@@ -296,9 +296,17 @@ nav .logo img:hover {
   color: #2c2b2b;
 }
 
+.stranger .stranger-content h1:hover + img {
+  opacity: 0.2;
+}
+
 .stranger .stranger-content img {
   height: 100px;
   opacity: 0.1;
+}
+
+.stranger .stranger-content img:hover {
+  opacity: 0.2;
 }
 
 .dropdown {

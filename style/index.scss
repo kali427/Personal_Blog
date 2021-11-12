@@ -332,11 +332,20 @@ nav{
             letter-spacing: 10px;
             line-height: 130px;
             color: $clr-bd;
+
+            
+            &:hover + img{
+                opacity: 0.2;
+            }
             
         }
         img{
             height: 100px;
             opacity: 0.1;
+
+            &:hover{
+                opacity: 0.2;
+            }
         }
     }
 
