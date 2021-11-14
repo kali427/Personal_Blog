@@ -1,12 +1,21 @@
 // media queries 
 
-    // @media screen and (max-width: 1000px){
-    // 840px        
-    //     .welcome .sub-welcome {
-    //         margin: 110px;
-    //     }
+    @media only screen and (max-width: 1035px) {
+    // 840px
+        #more{
+            display: inline-block !important;
+
+            .dropdown-menu{
+                #m4, #m3{
+                    display: block;
+                }
+            }
+        }
+        .contact, .about{
+            display: none !important;
+        }
         
-    // }
+    }
 
 // media queries 
 
@@ -72,30 +81,41 @@ nav{
     align-items: center;
 
     .nav-links{
-        margin-left: 50px;
+        margin-left: 4vw;
         .nav-btn{
             font-weight: bolder;
             display: inline-block;
             text-align: center;
             width: 120px;
-            padding: 15px 0px;
+            padding: 1vw 0px;
             text-decoration: none;
             color: rgba(255, 255, 255, 0.452);
-            margin-right: 10px;
+            margin-right: 0.2vw;
             cursor: pointer;
 
             &:hover{
-                color: $clr-w;
+                color: rgba(255, 255, 255, 0.623);
+                text-decoration: underline;
             }
             
         }
         
+        
         .active{
             color: $clr-w;
-            border-bottom: 3px solid $clr-w;
 
             &:hover{
                 
+            }
+        }
+
+        #more{
+            display: none;
+
+            .dropdown-menu{
+                .nav-btn{
+                    display: none;
+                }
             }
         }
     }
@@ -382,7 +402,6 @@ nav{
             margin-top: 0px;
             text-align: center;
             list-style: none;
-            border: 1px solid white;
 
                 a{                       
                     color: black;
