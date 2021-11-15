@@ -17,6 +17,61 @@
         
     }
 
+    @media only screen and (max-width: 900px) {
+        
+        .dropdown-menu{
+            #m2{
+                display: block !important;
+            }
+        }
+        
+        .CR{
+            display: none !important;
+        }
+
+    }
+    
+    @media only screen and (max-width: 770px) {
+        
+        .dropdown-menu{
+            #m1{
+                display: block !important;
+            }
+        }
+        
+        .BTF{
+            display: none !important;
+        }
+
+    }
+
+    @media only screen and (max-width: 635px) {
+
+        nav{
+            display: flex;
+            align-items: center;
+            
+            .opt{
+                background: url("../assets/menu.png");
+                background-size: cover;
+                width: 40px;
+                height: 40px;
+                position: relative;
+                left: 70%;
+                z-index: 21;
+                filter: invert(0.7);
+
+                &:hover + .nav-links, &:focus +.nav-links{
+                    display: block !important;
+                }
+            }
+
+            .nav-links{
+                display: none;
+            }
+        }
+        
+    }
 // media queries 
 
 // variables 
