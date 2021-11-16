@@ -170,7 +170,11 @@ nav {
         .active {
             color: $clr-w;
 
-            &:hover {}
+            &:hover {
+                text-decoration: none;
+                color: $clr-w;
+
+            }
         }
 
         #more {

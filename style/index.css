@@ -2,10 +2,12 @@
   #more {
     display: inline-block !important;
   }
-  #more .dropdown-menu #m4, #more .dropdown-menu #m3 {
+  #more .dropdown-menu #m4,
+  #more .dropdown-menu #m3 {
     display: block;
   }
-  .contact, .about {
+  .contact,
+  .about {
     display: none !important;
   }
 }
@@ -48,7 +50,8 @@
     -webkit-filter: invert(0.7);
             filter: invert(0.7);
   }
-  nav .opt:hover + .nav-links, nav .opt:focus + .nav-links {
+  nav .opt:hover + .nav-links,
+  nav .opt:focus + .nav-links {
     display: block !important;
   }
   nav .nav-links {
@@ -127,6 +130,11 @@ nav .nav-links .active {
   color: #f0f2f5;
 }
 
+nav .nav-links .active:hover {
+  text-decoration: none;
+  color: #f0f2f5;
+}
+
 nav .nav-links #more {
   display: none;
 }
@@ -168,7 +176,8 @@ nav .logo img:hover {
   margin-top: 1px;
 }
 
-.welcome .sub-welcome h1, .welcome .sub-welcome h3 {
+.welcome .sub-welcome h1,
+.welcome .sub-welcome h3 {
   margin: 0px;
 }
 
