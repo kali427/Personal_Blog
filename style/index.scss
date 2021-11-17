@@ -162,8 +162,21 @@ nav {
             cursor: pointer;
 
             &:hover {
-                color: rgba(255, 255, 255, 0.623);
+                color: rgba(255, 255, 255, 0.700);
                 text-decoration: underline;
+            }
+            &:focus{
+                animation-name: click;
+                animation-duration: .1s;
+            }
+
+            @keyframes click {
+                From{
+                    transform: scale(1);
+                }
+                To{
+                    transform: scale(0.9);
+                }
             }
 
         }

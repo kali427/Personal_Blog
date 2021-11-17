@@ -122,8 +122,37 @@ nav .nav-links .nav-btn {
 }
 
 nav .nav-links .nav-btn:hover {
-  color: rgba(255, 255, 255, 0.623);
+  color: rgba(255, 255, 255, 0.7);
   text-decoration: underline;
+}
+
+nav .nav-links .nav-btn:focus {
+  -webkit-animation-name: click;
+          animation-name: click;
+  -webkit-animation-duration: .1s;
+          animation-duration: .1s;
+}
+
+@-webkit-keyframes click {
+  From {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  To {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+}
+
+@keyframes click {
+  From {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  To {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
 }
 
 nav .nav-links .active {
