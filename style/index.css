@@ -386,7 +386,6 @@ nav .logo img:hover {
 
 .dropdown {
   display: inline-block;
-  position: relative;
 }
 
 .dropdown:hover .dropdown-menu {
@@ -422,6 +421,12 @@ nav .logo img:hover {
   margin-top: 0px;
   text-align: center;
   list-style: none;
+}
+
+.dropdown .dropdown-menu .top {
+  -webkit-clip-path: polygon(22% 25%, 32% 0, 44% 25%, 100% 25%, 100% 100%, 0 100%, 0 25%);
+          clip-path: polygon(22% 25%, 32% 0, 44% 25%, 100% 25%, 100% 100%, 0 100%, 0 25%);
+  padding-top: 1.4vw;
 }
 
 .dropdown .dropdown-menu a {

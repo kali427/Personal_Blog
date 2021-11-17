@@ -5,13 +5,15 @@
     // 840px
     #more {
         display: inline-block !important;
+        
 
         .dropdown-menu {
-
+            
             #m4,
             #m3 {
                 display: block;
             }
+            
         }
     }
 
@@ -457,7 +459,6 @@ nav {
 
 .dropdown {
     display: inline-block;
-    position: relative;
 
     &:hover .dropdown-menu {
         display: flex;
@@ -483,6 +484,13 @@ nav {
         margin-top: 0px;
         text-align: center;
         list-style: none;
+
+        .top{
+            clip-path: polygon(22% 25%, 32% 0, 44% 25%, 100% 25%, 100% 100%, 0 100%, 0 25%);
+            padding-top: 1.4vw;
+
+
+        }
 
         a {
             color: black;
