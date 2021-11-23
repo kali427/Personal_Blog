@@ -56,39 +56,47 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  nav .opt {
+  nav .menu {
     background: url("../assets/menu.png");
     background-size: cover;
     width: 40px;
     height: 40px;
-    position: relative;
-    left: 70%;
-    z-index: 21;
+    position: absolute;
+    left: 88%;
+    z-index: -1;
     -webkit-filter: invert(0.7);
             filter: invert(0.7);
   }
-  nav .opt:hover + .nav-links,
-  nav .opt:focus + .nav-links {
-    background-color: #f0f2f5;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical !important;
-    -webkit-box-direction: normal !important;
-        -ms-flex-direction: column !important;
-            flex-direction: column !important;
-    width: 100%;
-    position: absolute;
-    margin-left: 0px !important;
-    padding-top: 234px;
+  nav .menu:hover {
+    left: 0px;
+    top: 10px;
+    background-color: #f0f2f5 !important;
+    -webkit-filter: invert(0);
+            filter: invert(0);
   }
-  nav .opt:hover + .nav-links .nav-btn,
-  nav .opt:focus + .nav-links .nav-btn {
+  nav .menu:hover > .nav-links,
+  nav .menu:focus > .nav-links {
+    background-color: #f0f2f5;
+    display: block;
+    width: 100vw;
+    position: absolute;
+    left: 0px;
+    margin-left: 0px !important;
+    padding-top: 100px;
+  }
+  nav .menu:hover > .nav-links .nav-btn, nav .menu:hover > .nav-links .dropdown,
+  nav .menu:focus > .nav-links .nav-btn,
+  nav .menu:focus > .nav-links .dropdown {
     color: #2c2b2b !important;
     display: block !important;
+    width: 100%;
   }
   nav .nav-links {
     display: none;
+  }
+  .dropdown {
+    width: 100%;
+    display: block;
   }
 }
 
