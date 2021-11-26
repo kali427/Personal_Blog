@@ -295,16 +295,19 @@ $letter: 0.71vw;
     }
 
     .who{
-        // flex-direction: column;
+        height: 500px !important;
+        .who-pic{
+            img{
+                height: 100% !important;
+                width: 45vw !important;
+            }
+        }
     }
-
     
-    // .slider {
-    //     .slider-content {
-    //         &::before {
-    //         }
-    //     }
-    // }
+    .iam{
+        margin-top: 40px !important;
+        // margin-bottom: 30px;
+    }
 
 }
 

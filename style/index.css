@@ -227,6 +227,16 @@
   #more .dropdown-menu .nav-btn {
     display: none !important;
   }
+  .who {
+    height: 500px !important;
+  }
+  .who .who-pic img {
+    height: 100% !important;
+    width: 45vw !important;
+  }
+  .iam {
+    margin-top: 40px !important;
+  }
 }
 
 body {
