@@ -144,6 +144,14 @@ $letter: 0.71vw;
         // margin-bottom: 20px;
     }
 
+    .stranger{
+        .stranger-content{
+            h1{
+                font-size: 5vw !important;
+            }
+        }
+    }
+
 }
 
 @media only screen and (max-width: 690px) {
@@ -287,7 +295,7 @@ $letter: 0.71vw;
     }
 
     .who{
-        flex-direction: column;
+        // flex-direction: column;
     }
 
     

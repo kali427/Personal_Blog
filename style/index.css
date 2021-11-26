@@ -75,6 +75,9 @@
   .iam {
     margin-top: 0px !important;
   }
+  .stranger .stranger-content h1 {
+    font-size: 5vw !important;
+  }
 }
 
 @media only screen and (max-width: 690px) {
@@ -223,12 +226,6 @@
   }
   #more .dropdown-menu .nav-btn {
     display: none !important;
-  }
-  .who {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
   }
 }
 
