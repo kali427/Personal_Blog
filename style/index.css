@@ -27,6 +27,12 @@
   .about {
     display: none !important;
   }
+  .iam .iam-content {
+    margin-left: -20px;
+  }
+  .iam .iam-content h1 {
+    font-size: 6vw !important;
+  }
 }
 
 @media only screen and (max-width: 900px) {
@@ -36,6 +42,20 @@
   .CR {
     display: none !important;
   }
+  .iam {
+    margin-top: 20px !important;
+  }
+  .iam .iam-content {
+    margin-left: 0px !important;
+    margin-bottom: 55px !important;
+  }
+  .iam .iam-pic {
+    display: none !important;
+  }
+  .who .who-pic img {
+    height: 94% !important;
+    width: 45vw !important;
+  }
 }
 
 @media only screen and (max-width: 770px) {
@@ -44,6 +64,27 @@
   }
   .BTF {
     display: none !important;
+  }
+  .slider .slider-content::before {
+    font-size: 5vw !important;
+  }
+  .who .who-pic img {
+    height: 90% !important;
+    width: 45vw !important;
+  }
+  .iam {
+    margin-top: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 690px) {
+  .who .who-pic img {
+    height: 87% !important;
+    width: 45vw !important;
+  }
+  .iam {
+    margin-top: 0px !important;
+    margin-bottom: 30px;
   }
 }
 
@@ -89,6 +130,10 @@
     position: absolute;
     left: 90%;
     top: 10%;
+    -webkit-transition: all .31s linear;
+    transition: all .31s linear;
+    -webkit-transition-delay: .51s;
+            transition-delay: .51s;
   }
   nav .menu:hover > .nav-links,
   nav .menu:focus > .nav-links {
@@ -351,16 +396,16 @@ nav .logo img:hover {
 }
 
 .who .who-pic img {
-  width: 450px;
+  width: 35vw;
   height: 100%;
   -webkit-filter: grayscale(0.7);
           filter: grayscale(0.7);
   margin-top: 20px;
+  border-right: 12px solid #2c2b2b;
 }
 
 .who .who-content {
   height: 100%;
-  border-left: 12px solid #2c2b2b;
   margin-top: 20px;
   width: 100%;
 }
@@ -433,6 +478,7 @@ nav .logo img:hover {
 }
 
 .iam .iam-content {
+  margin-bottom: 50px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -457,9 +503,10 @@ nav .logo img:hover {
   text-align: center;
   word-spacing: 4vw;
   letter-spacing: 0.71vw;
-  line-height: 130px;
+  line-height: 11vw;
   color: #2c2b2b;
   padding-top: 40px;
+  font-size: 5vw;
 }
 
 .iam .iam-pic {

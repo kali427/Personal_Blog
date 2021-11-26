@@ -60,6 +60,15 @@ $letter: 0.71vw;
         display: none !important;
     }
 
+    .iam{
+        .iam-content{
+            margin-left: -20px;
+            h1{
+                font-size: 6vw !important;
+            }
+        }
+    }
+
 }
 
 @media only screen and (max-width: 900px) {
@@ -73,6 +82,32 @@ $letter: 0.71vw;
     .CR {
         display: none !important;
     }
+
+    .iam{
+        // flex-direction: column !important;
+        margin-top: 20px !important;
+        .iam-content{
+            margin-left: 0px !important;
+            margin-bottom: 55px !important;
+
+            h1{
+                // line-height: ;
+            }
+        }
+        .iam-pic{
+            display: none !important;
+        }
+    }
+
+    .who{
+        .who-pic{
+            img{
+                height: 94% !important;
+                width: 45vw !important;
+            }
+        }
+    }
+
 
 }
 
@@ -88,6 +123,43 @@ $letter: 0.71vw;
         display: none !important;
     }
 
+    .slider{
+        .slider-content{
+            &::before{
+                font-size: 5vw !important;
+            }
+        }
+    }
+    .who{
+        .who-pic{
+            img{
+                height: 90% !important;
+                width: 45vw !important;
+            }
+        }
+    }
+
+    .iam{
+        margin-top: 0px !important;
+        // margin-bottom: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 690px) {
+    .who{
+        .who-pic{
+            img{
+                height: 87% !important;
+                width: 45vw !important;
+            }
+        }
+    }
+
+    .iam{
+        margin-top: 0px !important;
+        margin-bottom: 30px;
+    }
 }
 
 @media only screen and (max-width: 635px) {
@@ -129,8 +201,8 @@ $letter: 0.71vw;
                 position: absolute;
                 left: 90%;
                 top: 10%;
-                // transition: all 1s ease-in;
-                // transition-delay: 1s;
+                transition: all .31s linear;
+                transition-delay: .51s;
 
             }
 
@@ -217,6 +289,14 @@ $letter: 0.71vw;
     .who{
         flex-direction: column;
     }
+
+    
+    // .slider {
+    //     .slider-content {
+    //         &::before {
+    //         }
+    //     }
+    // }
 
 }
 
@@ -387,17 +467,17 @@ nav {
 
     .who-pic {
         img {
-            width: 450px;
+            width: 35vw;
             height: 100%;
             filter: grayscale(0.7);
             margin-top: 20px;
+            border-right: 12px solid $clr-bd;
 
         }
     }
 
     .who-content {
         height: 100%;
-        border-left: 12px solid $clr-bd;
         margin-top: 20px;
         width: 100%;
 
@@ -487,6 +567,7 @@ nav {
 
 
     .iam-content {
+        margin-bottom: 50px;
         width: 100%;
         // border-right: 12px solid $clr-bd;
         display: flex;
@@ -506,9 +587,10 @@ nav {
             text-align: center;
             word-spacing: $word;
             letter-spacing: $letter;
-            line-height: 130px;
+            line-height: 11vw;
             color: $clr-bd;
             padding-top: 40px;
+            font-size: 5vw;
         }
     }
 
