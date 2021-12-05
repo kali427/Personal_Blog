@@ -108,6 +108,11 @@ $letter: 0.71vw;
         }
     }
 
+    
+    .stranger {
+        height: 300px !important;
+    }
+
 
 }
 
@@ -145,6 +150,8 @@ $letter: 0.71vw;
     }
 
     .stranger{
+        height: 250px !important;
+
         .stranger-content{
             h1{
                 font-size: 5vw !important;
@@ -320,6 +327,10 @@ $letter: 0.71vw;
         // margin-bottom: 30px;
     }
 
+    .stranger{
+        height: 230px !important;
+    }
+
 }
 
 
@@ -359,6 +370,8 @@ $letter: 0.71vw;
     }
 
     .stranger{
+        height: 300px !important;
+
         .stranger-content{
             flex-direction: column;
             h1{
@@ -414,6 +427,10 @@ $letter: 0.71vw;
                 height: 80% !important;
             }
         }
+    }
+
+    .stranger{
+        height: 250px !important;
     }
 }
 
@@ -730,7 +747,7 @@ nav {
 }
 
 .stranger {
-    height: 50vh;
+    height: 350px;
     width: 100%;
     background-color: $clr-b;
     display: flex;

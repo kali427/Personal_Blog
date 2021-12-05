@@ -56,6 +56,9 @@
     height: 94% !important;
     width: 45vw !important;
   }
+  .stranger {
+    height: 300px !important;
+  }
 }
 
 @media only screen and (max-width: 770px) {
@@ -74,6 +77,9 @@
   }
   .iam {
     margin-top: 0px !important;
+  }
+  .stranger {
+    height: 250px !important;
   }
   .stranger .stranger-content h1 {
     font-size: 5vw !important;
@@ -243,6 +249,9 @@
   .iam {
     margin-top: 40px !important;
   }
+  .stranger {
+    height: 230px !important;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -275,6 +284,9 @@
   }
   .iam .iam-content {
     margin-bottom: 30px !important;
+  }
+  .stranger {
+    height: 300px !important;
   }
   .stranger .stranger-content {
     -webkit-box-orient: vertical;
@@ -321,6 +333,9 @@
   }
   .who .who-pic img {
     height: 80% !important;
+  }
+  .stranger {
+    height: 250px !important;
   }
 }
 
@@ -616,7 +631,7 @@ nav .logo img:hover {
 }
 
 .stranger {
-  height: 50vh;
+  height: 350px;
   width: 100%;
   background-color: #333333;
   display: -webkit-box;
